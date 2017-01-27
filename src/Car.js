@@ -22,11 +22,11 @@ export default class Car{
     drive(person) {
         let output = ""; // single-line quote assignment
         if ( typeof person.firstName != "undefined" ){
-            let output = `
+             output = `
             ${person.firstName} is driving the car;
         `;
         } else {
-            let output = ` OMG!
+             output = ` OMG!
             no one is driving the car`;
         }
         console.log( output );
